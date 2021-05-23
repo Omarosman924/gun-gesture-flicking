@@ -3,11 +3,11 @@ import mediapipe as mp
 import time
 import numpy as np
 import random
-import pygame
+#import pygame
 cap = cv2.VideoCapture(0)
 cap.set(3,480)
 cap.set(4,640)
-pygame.mixer.init()
+#pygame.mixer.init()
 mpHands = mp.solutions.hands
 hands = mpHands.Hands(max_num_hands =2,min_tracking_confidence = .99)
 mpDraw = mp.solutions.drawing_utils
@@ -56,8 +56,8 @@ while True:
                     
                     if landmarks[8][0] in range(randomx-40,randomx+40) and landmarks[8][1] in range(randomy-40 ,randomy+40):
                         
-                        pygame.mixer.music.load('Pew sound effect.mp3')
-                        pygame.mixer.music.play(0)
+                        #pygame.mixer.music.load('Pew sound effect.mp3')
+                        #pygame.mixer.music.play(0)
                         randomx = random.randint(100, 400)
                         randomy = random.randint(100, 400)
                         count +=1
@@ -66,8 +66,8 @@ while True:
                     #cv2.circle(img, (landmarks[4][0], landmarks[4][1]), 5, (255, 0, 0), cv2.FILLED)
                     
                     if landmarks[4][0] in range(randomx-40,randomx+40) and landmarks[4][1] in range(randomy-40,randomy+40):
-                        pygame.mixer.music.load('Pew sound effect.mp3')
-                        pygame.mixer.music.play(0)
+                        #pygame.mixer.music.load('Pew sound effect.mp3')
+                        #pygame.mixer.music.play(0)
                         randomx = random.randint(100, 300)
                         randomy = random.randint(100, 500)
                         
