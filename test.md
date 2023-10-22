@@ -11,6 +11,11 @@ The Hand Detection and Shooting Game project is a computer vision-based game tha
 ![image](https://github.com/Omarosman924/gun-gesture-flicking/assets/61525054/1b5b1649-547a-414a-b142-0371f42abb42)
 
 
+
+https://github.com/Omarosman924/gun-gesture-flicking/assets/61525054/7330f79d-1902-4db4-9dec-286d8744dce1
+
+
+
 ## Prerequisites
 
 - Python 3.x
