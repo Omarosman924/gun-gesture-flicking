@@ -8,7 +8,8 @@ The Hand Detection and Shooting Game project is a computer vision-based game tha
 
 ## Demo
 
-Include a GIF or video demonstrating the project in action.
+![image](https://github.com/Omarosman924/gun-gesture-flicking/assets/61525054/1b5b1649-547a-414a-b142-0371f42abb42)
+
 
 ## Prerequisites
 
