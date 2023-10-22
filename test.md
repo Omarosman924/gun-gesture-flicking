@@ -24,3 +24,9 @@ Include a GIF or video demonstrating the project in action.
 
    ```shell
    git clone https://github.com/your-username/your-repo.git
+
+## Usage
+
+* The application will prompt the user to allow access to the webcam.
+* The user can then look into the camera, and the model will recognize their Hands.
+* Aim wiht Hand and Fire into The Target .
