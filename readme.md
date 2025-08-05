@@ -26,10 +26,7 @@ https://github.com/Omarosman924/gun-gesture-flicking/assets/61525054/7330f79d-19
 
 ## Installation
 
-1. Clone the repository:
-
-   ```shell
-  [ git clone https://github.com/your-username/your-repo.git](https://github.com/Omarosman924/gun-gesture-flicking.git)
+s
 
 ## Usage
 
